@@ -1,3 +1,3 @@
-class ListImpl{
+class ListImpl implements List{
 	int i = 0;
 }

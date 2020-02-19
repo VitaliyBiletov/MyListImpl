@@ -1,14 +1,7 @@
 class ListImpl{
-	private int x;
-	private int y;
 
-	public ListImpl(final int x, final int y){
-		this.x = x;
-		this.y = y;
-	}
-
-	public int sum(){
-		return this.x + this.y;
+	public static int sum(final int x, final int y){
+		return x + y;
 	}
 
 }
